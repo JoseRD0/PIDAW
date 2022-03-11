@@ -1,1 +1,117 @@
-Holy
+ABSTRACT 
+  
+
+Nutrinet es una aplicación web, y en concreto una red social centrada en la nutrición, que permite compartir lo que comes, donde lo comes, los beneficios o perjuicios de lo que comes, así como su información nutricional gracias a una enciclopedia de alimentos que incorporada en la aplicación. También tienes a tu disposición una herramienta para crear tus propias dietas semanales. Además podrás personalizar tu propio perfil donde otros usuarios podrán seguirte, ver y valorar tus publicaciones y dieta si tienes una. 
+Nutrinet is a web application, and specifically a social network focused on nutrition, that allows sharing what you eat, where you eat it and the benefits or harm of what you eat, in addition to its nutritional value thanks to the food encyclopedia included in the application. You also have at your disposal a tool to create your own weekly diet schedules. Moreover, you are able to personalize your own profile page where other users can follow you, see and rate your posts if you have one. 
+JUSTIFICACIÓN DEL PROYECTO 
+Mi motivación principal para la creación de esta app es mi propia iniciativa de adoptar una dieta más saludable. Esta app podrá ayudar a otros a hacer lo mismo, ver que no están solos en el camino a una vida más saludable y por lo general más feliz, a la vez que divertirse con las publicaciones de otros e incluso competir entre usuarios o amigos.
+
+
+
+
+INTRODUCCIÓN   
+Existen múltiples aplicaciones, y sobre todo en dispositivos móviles, que asisten en la creación y seguimiento de una dieta saludable (‘Oorenji’, ‘4eat’, ‘LifeSum’…) además de las redes sociales que todos conocemos y tan extendidas están (‘Twitter’, ‘Instagram’...) sin embargo no he encontrado con ninguna red social que se centre en las dos cosas a la vez por lo que un usuario dedicado al ámbito de la nutrición podría venirle muy bien mi app. Bien es cierto que existen comunidades centradas en vida saludable y todas sus ramas en las redes sociales antes mencionadas, pero estas carecen de herramientas como el creador de dietas o la enciclopedia de alimentos precisamente porque están creadas para el público general, y no solo eso sino que a diferencia de las apps de nutrición también antes mencionadas, que están aisladas de la comunicación y feedback de otras personas, y requieren convertirse en usuario premium y pagar una mensualidad, mi proyecto reúne lo mejor de los dos mundos y puede llenar el hueco que dejan. 
+OBJETIVOS 
+Listado de objetivos que se plantean resolver. Requisitos. 
+1. Ofrecer la posibilidad de registrarse en la app gratuitamente a usuarios para disfrutar de todas las funciones de la misma. 
+2. Ofrecer un portal inicial donde: 
+➢ Aparezcan las publicaciones más populares del momento, las publicaciones de tus amigos y los usuarios a los que sigues. 
+➢ La opción de filtrar y ver solamente el tipo de publicaciones que desees. ➢ Una barra de navegación con botones que lleven a tu perfil, al creador de dietas o a la enciclopedia de alimentos.
+
+
+
+
+3. Ofrecer una página de tu perfil donde se destaque tu foto de perfil y descripción, se muestren todas tus publicaciones pudiendo filtrar entre las más populares o más recientes, mostrar a otros usuarios tu dieta si tienes una, su puntuación actual y la posibilidad de valorarla.   
+Sin embargo si eres el usuario del perfil permitir cambiar la foto, la descripción, eliminar publicaciones o añadir contenido extra bajo las ya existentes. 
+4. Ofrecer un creador de dietas adaptado a los sistemas de calendario y hora de todos los países, poder ver su puntuación e incluir un botón donde poder imprimirlo. 
+5. Ofrecer una enciclopedia de alimentos con imágenes, información (no estrictamente nutricional) fiable proveniente de fuentes científicas o médicas, con la capacidad de poder filtrar entre los más o menos saludables, los más populares o los que más consume el usuario que la consulta. 
+
+
+
+
+
+
+
+
+
+
+DESCRIPCIÓN 
+Arquitectura de la solución. 
+Diagrama de clases. 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Casos de uso. 
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+DISEÑO 
+Diagrama E/R 
+Diagrama de la base de datos. 
+Diagrama de flujo de navegación. 
+Interfaces.
+TECNOLOGÍA 
+Las tecnologías y herramientas utilizadas para este proyecto 
+
+
+    METODOLOGÍA 
+Metodología usada y justificación de la misma. 
+Diagrama de Gantt   
+
+
+Presupuesto 
+TRABAJOS FUTUROS 
+Trabajos de ampliación y mejora proyectados. CONCLUSIONES 
+Conclusión profesional del proyecto. 
+REFERENCIAS 
+Según las normas APA.
