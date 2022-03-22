@@ -1,117 +1,124 @@
-ABSTRACT 
-  
-
-Nutrinet es una aplicación web, y en concreto una red social centrada en la nutrición, que permite compartir lo que comes, donde lo comes, los beneficios o perjuicios de lo que comes, así como su información nutricional gracias a una enciclopedia de alimentos que incorporada en la aplicación. También tienes a tu disposición una herramienta para crear tus propias dietas semanales. Además podrás personalizar tu propio perfil donde otros usuarios podrán seguirte, ver y valorar tus publicaciones y dieta si tienes una. 
-Nutrinet is a web application, and specifically a social network focused on nutrition, that allows sharing what you eat, where you eat it and the benefits or harm of what you eat, in addition to its nutritional value thanks to the food encyclopedia included in the application. You also have at your disposal a tool to create your own weekly diet schedules. Moreover, you are able to personalize your own profile page where other users can follow you, see and rate your posts if you have one. 
-JUSTIFICACIÓN DEL PROYECTO 
-Mi motivación principal para la creación de esta app es mi propia iniciativa de adoptar una dieta más saludable. Esta app podrá ayudar a otros a hacer lo mismo, ver que no están solos en el camino a una vida más saludable y por lo general más feliz, a la vez que divertirse con las publicaciones de otros e incluso competir entre usuarios o amigos.
-
-
-
-
-INTRODUCCIÓN   
-Existen múltiples aplicaciones, y sobre todo en dispositivos móviles, que asisten en la creación y seguimiento de una dieta saludable (‘Oorenji’, ‘4eat’, ‘LifeSum’…) además de las redes sociales que todos conocemos y tan extendidas están (‘Twitter’, ‘Instagram’...) sin embargo no he encontrado con ninguna red social que se centre en las dos cosas a la vez por lo que un usuario dedicado al ámbito de la nutrición podría venirle muy bien mi app. Bien es cierto que existen comunidades centradas en vida saludable y todas sus ramas en las redes sociales antes mencionadas, pero estas carecen de herramientas como el creador de dietas o la enciclopedia de alimentos precisamente porque están creadas para el público general, y no solo eso sino que a diferencia de las apps de nutrición también antes mencionadas, que están aisladas de la comunicación y feedback de otras personas, y requieren convertirse en usuario premium y pagar una mensualidad, mi proyecto reúne lo mejor de los dos mundos y puede llenar el hueco que dejan. 
-OBJETIVOS 
-Listado de objetivos que se plantean resolver. Requisitos. 
-1. Ofrecer la posibilidad de registrarse en la app gratuitamente a usuarios para disfrutar de todas las funciones de la misma. 
-2. Ofrecer un portal inicial donde: 
-➢ Aparezcan las publicaciones más populares del momento, las publicaciones de tus amigos y los usuarios a los que sigues. 
-➢ La opción de filtrar y ver solamente el tipo de publicaciones que desees. ➢ Una barra de navegación con botones que lleven a tu perfil, al creador de dietas o a la enciclopedia de alimentos.
-
-
-
-
-3. Ofrecer una página de tu perfil donde se destaque tu foto de perfil y descripción, se muestren todas tus publicaciones pudiendo filtrar entre las más populares o más recientes, mostrar a otros usuarios tu dieta si tienes una, su puntuación actual y la posibilidad de valorarla.   
-Sin embargo si eres el usuario del perfil permitir cambiar la foto, la descripción, eliminar publicaciones o añadir contenido extra bajo las ya existentes. 
-4. Ofrecer un creador de dietas adaptado a los sistemas de calendario y hora de todos los países, poder ver su puntuación e incluir un botón donde poder imprimirlo. 
-5. Ofrecer una enciclopedia de alimentos con imágenes, información (no estrictamente nutricional) fiable proveniente de fuentes científicas o médicas, con la capacidad de poder filtrar entre los más o menos saludables, los más populares o los que más consume el usuario que la consulta. 
-
-
-
-
-
-
-
-
-
-
-DESCRIPCIÓN 
-Arquitectura de la solución. 
-Diagrama de clases. 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Casos de uso. 
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-DISEÑO 
-Diagrama E/R 
-Diagrama de la base de datos. 
-Diagrama de flujo de navegación. 
-Interfaces.
-TECNOLOGÍA 
-Las tecnologías y herramientas utilizadas para este proyecto 
-
-
-    METODOLOGÍA 
-Metodología usada y justificación de la misma. 
-Diagrama de Gantt   
-
-
-Presupuesto 
-TRABAJOS FUTUROS 
-Trabajos de ampliación y mejora proyectados. CONCLUSIONES 
-Conclusión profesional del proyecto. 
-REFERENCIAS 
-Según las normas APA.
+José RamónDonaireDuarte
+1ºDAW
+DOCUMENTACIÓN
+PROYECTO INTEGRADOR
+ABSTRACT
+MyMangaTracker es una aplicaciónweb, y en concreto una red socialcentrada en el manga,
+que permite compartir con otros usuarios tu pasión por el cómic japonés, así como poder
+organizar tus lecturas gracias a una herramienta incorporada para que nunca pierdas el
+hilo u olvides lo que leíste. Además podrás personalizar tu propio perfil el cuál otros
+usuarios podrán seguir, ver y valorar tus publicaciones y colección de manga si tienes una.
+MyMangaTracker is a web app, and specifically a social network focused on manga,which
+allows you to share with other users your passion for Japanese comics, as well as to
+organize your readings thanks to a built-in toolso you never lose the thread or forgetwhat
+you’ve read. You can also customize your own profile which other users can follow, view
+and rate your publications and manga collection if you have one.
+JUSTIFICACIÓN DEL PROYECTO
+Mi motivación principal para la creación de esta app es mi propia amor hacia el manga, en
+los últimos años no ha hecho nada más que crecer gracias a la aparente cantidad infinita
+de obras magníficas, por esto es que la idea de crear una app que me ayude a mi y a otros a
+organizar y compartir uno de mis aficiones favoritas me parece genial. Para resumir, esta
+app podría motivar a personas a adentrarse en el hobby o facilitar el descubrimiento de
+nuevos mangas por medio de las interacciones con otros en el mundillo, así como hacer
+más divertida la experiencia para todos.
+INTRODUCCIÓN
+Existen múltiples aplicaciones, que asisten en la creación y seguimiento de manga
+(‘MyAnimeList’, ‘Kitsu’, ‘AniList’…) además de las redes sociales que todos conocemos y tan
+extendidas están (‘Twitter’, ‘Instagram’...) sin embargo no he encontrado con ninguna red
+social que se centre en las doscosas a la vez por lo que un usuario muy dedicado al ámbito
+del cómic japonés podría venirle muy bien mi app. Bien escierto que existen comunidades
+centradas en manga y todos sus géneros en las redes sociales antes mencionadas, pero
+estas carecen de herramientas como el creador de listas o la base de datos de manga
+precisamente porque están creadas para el público general, y no solo eso sino que a
+diferencia de las apps de manga también antes mencionadas, que están aisladas de la
+comunicación y feedback de otras personas, y requieren convertirse en usuario
+premium(lo cuál digo por experiencia que no es muy agradable ni accesible) y pagar una
+mensualidad, mi proyecto reúne lo mejor de los dos mundos y puede llenar el hueco que
+dejan.
+TECNOLOGÍA UTILIZADAS
+- JAVA: Lenguaje de programación.
+- PHP: Lenguaje de programación (servidor).
+- MySQL: SGBDr basado en el lenguaje de consulta SQL.
+- HTML/CSS: html como lenguaje de marcado, css como lenguaje de reglas de estilo
+y js para hacer la página dinámica e interactiva.
+- DinaHosting: WebServer para sostener la página.
+HERRAMIENTAS UTILIZADAS
+- Eclipse: IDE del proyecto para java.
+- Brackets/Notepad++: Editores de texto para html,css y js.
+- MySQL: SGBDr basado en el lenguaje de consulta SQL.
+- HTML/CSS: html como lenguaje de marcado, css como lenguaje de reglas de estilo
+y js para hacer la página dinámica e interactiva.
+- Visual Studio Code: editor de código fuente para php y ocasionalmente para
+pruebas en maquetado de la página.
+LinkS porsi no se ve bien:
+- GITHUB:
+- DIAGRAMA DE CLASES:
+https://app.moqups.com/JXu7EoEGSiDESkZtnjlnEZJgDWvBl4lZ/view/page/afbe83
+ee9
+- DIAGRAMA DE GANTT:
+https://docs.google.com/spreadsheets/d/1FFLurZs7QO3_wzTE6qTGG72GdNVj8NEJ
+9ADwEFp1cIo/edit?usp=sharing
+- INTERFACES:
+- LOS CASOS DE USO:
+DIAGRAMA RFTP
+——— R1. Permitir al usuario registrarse o loguearse para poder hacer uso de la app
+—————— R1. F1. Mostrar una página de bienvenida donde aparezcan menús de: logueo,
+registro y recuperación de cuenta.
+————————— R1.F1. T1. Maquetar página enHTML y CSS
+————————— R1.F1. T3. Crear la parte de la base de datos donde almacenar usuarios y
+contraseñas.
+————————— R1.F1. T3. Crear formularioHTML y enlazarlo con elservidor usando php.
+———————————— R1.P1 Registrar una cuenta de usuario,cerrarsesion e intentar
+loguearse en dicha cuenta
+————————————————————————————————————————
+——— R2. Permitir al usuario navegar entre las distintas páginas de laweb
+—————— R2. F1. Mostrar la página principal del portal donde se permita la navegación a:
+- Portal inicialcon publicaciones(ya estás en él pero hay que incluirlo)
+- Perfil personal
+- Perfil ajeno
+- Lista personal de manga
+————————— R2.F1. T1. Maquetar páginas enHTML y CSS (portal, perfil, perfil ajeno,
+listado personal de manga, listado propio de manga)
+———————————— R2. P1 Comprobar la correcta visualización y navegación
+entre todaslas páginas.
+————————————————————————————————————————
+——— R3. Permitir al usuario modificarsu perfil
+—————— R3. F1. Mostrar al usuario al entrar en su página de perfil personal todossus
+datos y la posibilidad de cambiarlos.(Nickname, foto de perfil, manga
+favorito…).
+————————— R3.F1. T1. Programar la posibilidad de cambiar datos y enviarlos
+actualizados alservidor
+———————————— R3.P1 Cambiar todosloscampos,confirmar y comprobar
+suscambios
+————————————————————————————————————————
+——— R4. Permitir al usuario compartir publicacionesrelacionadascon el manga.
+—————— R4. F1.Mostrar al usuario menú donde crearsu publicación (se puede añadir
+texto, imágenes, un manga y una valoración)
+————————— R4.F1. T1. Programar la posibilidad de crear una publicación y añadir
+todosloscampos mencionados.
+———————————— R4.P1. Crear publicación con todosloscampos posibles y
+comprobarsu correcta visualización desde la cuenta creadora y
+desde otra
+————————————————————————————————————————
+——— R5. Permitir al usuario interactuarcon publicaciones y perfiles de otros usuarios
+—————— R5. F1.Mostrar al usuario las opciones: dar like, dejarcomentario, y valorar
+publicación.
+————————— R5.F1. T1. Programar el like, elcomentario y la valoración de posts
+ajenos.
+———————————— R5. P1.Dejar likes,comentarios y valoraciones en una
+publicación y comprobarsu correcta visualización desde
+diferentescuentas.
+————————————————————————————————————————
+——— R6. Permitir al usuario crear listas de manga
+—————— R6. F1. Mostrar al usuario la herramienta donde podrá añadir mangas a su
+colección en diferentes estados(completados, en lectura, planeados o
+abandonados), actualizarsu valoración,comprobar datos asociados de los
+mangas(título, género, demografía y estudio)
+————————— R6.F1. T1. Programar herramienta de listado de manga personal
+———————————— R6. P1. Añadir varios mangas, actualizar valoraciones,
+comprobarsu información, eliminar mangas y comprobar todos
+loscambios hechos desde cuentas distintas.
+DIAGRAMA DE CLASES
+Ç
+DIAGRAMA DE CASO DE USO
+DIAGRAMA DE INTERFACES
