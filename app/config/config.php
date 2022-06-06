@@ -7,7 +7,6 @@ define('DB_NAME' , 'mymangatracker');
 define('DB_USER' , 'root');
 define('DB_PASSWORD' , '');
 
-
 //definir las constantes del proyecto
 
 define('URL_APP' , dirname(dirname(__FILE__))); 
