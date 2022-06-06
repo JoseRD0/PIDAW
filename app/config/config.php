@@ -7,7 +7,7 @@ define('DB_NAME' , 'mymangatracker');
 define('DB_USER' , 'root');
 define('DB_PASSWORD' , '');
 
-//definir las constantes del proyecto
+//definir las constantes del proyectopo
 
 define('URL_APP' , dirname(dirname(__FILE__))); 
     //echo URL_APP -->  C:\wampp\www\app
