@@ -7,7 +7,6 @@ require_once 'config/config.php';
 require_once 'helpers/urlhelper.php';
 
 //llamar a librerias(uso función que sirve para llamar a todos archivos da igual cuantos haya )
-spl_autoload_register(function($files){
+spl_autoload_register(function ($files) {
     require_once 'librerias/' . $files . '.php';
-
 });
