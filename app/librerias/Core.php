@@ -14,17 +14,9 @@ class Core
         $url = $this->getUrl(); //$this se usa cuando un metodo es invocado dentro del contexto '{}' de un objeto
         //referencia al objeto invocador
 
-        if (is_array($url)) { //uso la función is_array para comprobar que ES un array, pues si url está vacío devolvera 'false'
-            if (file_exists('../app/controlador/' . ucwords($url[0]) . '.php')) //ucwords convierte las 1as letras de palabra a mayus
-            {
-
-                $this->currentController = ucwords($url[0]);
-
-                unset($url[0]); //unset elimina el mvalor almacenado en la var
-
-            }
-        } else {
-            //valor falso, array completamente vacío
+        if (file_exists('../app/controlador/' . ucwords($url[0]) . '.php')) {
+            $this->currentController = ucwords($url[0]); //pone en mayuscuylas
+            unset($url[0]);
         }
 
 

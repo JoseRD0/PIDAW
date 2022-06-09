@@ -10,7 +10,7 @@ define('DB_PASSWORD', '');
 //definir las constantes del proyectopo
 
 define('URL_APP', dirname(dirname(__FILE__)));
-//echo URL_APP -->  C:\wampp\www\app
+//echo URL_APP -->  C:\wamp64\www\app
 
 define('URL_PROJECT', 'http://localhost/MyMangaTracker');
 //echo URL_PROJECT; --> http://localhost/MyMangaTracker

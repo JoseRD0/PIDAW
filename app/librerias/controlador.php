@@ -7,7 +7,6 @@ class controlador{ //se encargará de llamar a los *modelos* y a las *vistas*
 
         return new $modelo;
 
-
     }
 
 
