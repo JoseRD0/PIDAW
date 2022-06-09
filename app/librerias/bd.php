@@ -16,7 +16,7 @@ class bd { //ESTA clase se encargará de 'toda' las interaccinoes con la BD
 
     public function __construct()
     {
-        $dns = 'mysql:host' . $this->host . ';nombreBD=' . $this->nombreBD;
+        $dns = 'mysql:host=' . $this->host . ';dbname=' . $this->nombreDB;
         //control de erroes
         $option = [
             PDO::ATTR_ERRMODE => true, 
@@ -25,7 +25,7 @@ class bd { //ESTA clase se encargará de 'toda' las interaccinoes con la BD
 
         try {
             $this->conexionDB = new PDO($dns , $this->usuario, $this->password , $option);
-            $this->conexionDB->exec('set names ut8'); //que al conectar a lA BD esté en español de españa muy español
+            $this->conexionDB->exec('set names utf8'); //que al conectar a lA BD esté en español de españa muy español
 
         } catch (PDOException $e) {
             $this->error = $e -> getMessage(); //pues eso, coge la excepción en caso de que haya y la imprime
