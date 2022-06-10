@@ -11,9 +11,9 @@ include_once URL_APP . '/vistas/marcas/header.php';
     <div class="container-content center">
         <div class="content-action center">
             <h4>Iniciar sesión</h4>
-            <form action="">
-                <input type="text" placeholder="Usuario" required>
-                <input type="password" placeholder="Contraseña" required>
+            <form action="<?php echo URL_PROJECT ?>/home/login" method="POST">
+                <input type="text" name="usuario" placeholder="Usuario" required>
+                <input type="password" name="contrasena" placeholder="Contraseña" required>
                 <button class="btn-red btn-block">Entrar</button>
             </form>
 
@@ -22,7 +22,7 @@ include_once URL_APP . '/vistas/marcas/header.php';
             </div>
         </div>
         <div class="content-image center">
-            <img src="<?php echo URL_PROJECT ?>/img/vector.png" alt="man sentado en pc">
+            <img src="<?php echo URL_PROJECT ?>/img/vector.png" alt="logo">
         </div>
     </div>
 </div>

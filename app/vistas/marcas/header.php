@@ -12,6 +12,9 @@
 
     <!-- css-->
     <link rel="stylesheet" href="<?php echo URL_PROJECT?>/css/estilo.css">
+    <link rel="stylesheet" href="<?php echo URL_PROJECT?>/css/home.css">
+    <link rel="stylesheet" href="<?php echo URL_PROJECT?>/css/navbar.css">
+    <link rel="stylesheet" href="<?php echo URL_PROJECT?>/css/perfil.css">
 
     <title><?php echo NAME_PROJECT ?></title>
 

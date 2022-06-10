@@ -1,10 +1,11 @@
 <?php
-require_once '../app/modelo/usuario.php';
+
 class Home extends controlador //extiendo al controler para poder usar sus metodos
 {//un metodo es una funcion usada en el contexto de una clase u obj, si está fuera se llama funciójn
     public function __construct()
     {
         $this->usuario = $this->model('usuario');//aqui creamos todas las opciones del usuario, registro, logeo...
+        $this->publicaciones = $this->model('publicar');
     }
 public function index()
 {
@@ -17,14 +18,13 @@ public function index()
 
         $datosPublicaciones = $this->publicaciones->getPublicaciones();
 
-        $verificarLike = $this->publicaciones->misLikes($_SESSION['logueado']);
+        //$verificarLike = $this->publicaciones->misLikes($_SESSION['logueado']);
 
         if ($datosPerfil) {
             $datosRed = [
                 'usuario' => $datosUsuario,
                 'perfil' => $datosPerfil,
-                'publicaciones' => $datosPublicaciones,
-                'misLikes' => $verificarLike
+                'publicaciones' => $datosPublicaciones
             ];
 
             $this->vista('paginas/home', $datosRed);
@@ -43,9 +43,9 @@ public function login()
             'usuario' => trim($_POST['usuario']),
             'contrasena' => trim($_POST['contrasena'])
         ];
-
+        
         $datosUsuario = $this->usuario->getUsuario($datosLogin['usuario']);
-
+        
         if ($this->usuario->verificarContrasena($datosUsuario, $datosLogin['contrasena'])) {
             $_SESSION['logueado'] = $datosUsuario->idusuario;
             $_SESSION['usuario'] = $datosUsuario->usuario;

@@ -1,6 +1,7 @@
 <IfModule mod_rewrite.c>
 
 Options -Multiviews
+Options -Indexes
 
 RewriteEngine On
 RewriteBase /MyMangaTracker/public/

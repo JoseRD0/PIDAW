@@ -19,7 +19,7 @@ include_once URL_APP . '/vistas/marcas/header.php';
             </div>
         </div>
         <div class="content-image center">
-            <img src="<?php echo URL_PROJECT ?>/img/vector.png" alt="man sentado en pc">
+            <img src="<?php echo URL_PROJECT ?>/img/vector.png" alt="logo">
         </div>
     </div>
 </div>

@@ -1,7 +1,7 @@
 <?php
 
 include_once URL_APP . '/vistas/marcas/header.php';
-
+include_once URL_APP . '/vistas/marcas/navbar.php';
 ?>
 
 

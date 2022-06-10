@@ -12,8 +12,7 @@ class usuario
 
     public function getUsuario($usuario)
     {
-        $this->db->query('SELECT * FROM usuarios WHERE usuario = :user');
-        $this->db->bind(':user', $usuario);
+        $this->db->query("SELECT * FROM usuarios WHERE usuario = '" . $usuario . "'");
         return $this->db->register();
     }
 
@@ -25,8 +24,7 @@ class usuario
 
     public function getPerfil($idusuario)
     {
-        $this->db->query('SELECT * FROM perfil WHERE idUsuario = :id');
-        $this->db->bind(':id', $idusuario);
+        $this->db->query("SELECT * FROM perfil WHERE idUsuario = '" . $idusuario . "'");
         return $this->db->register();
     }
 
@@ -64,11 +62,8 @@ class usuario
 
     public function insertarPerfil($datos)
     {
-        $this->db->query('INSERT INTO perfil (idUsuario	, fotoPerfil , nombreCompleto) VALUES (:id , :rutaFoto , :nombre)');
-        $this->db->bind(':id', $datos['idusuario']);
-        $this->db->bind(':rutaFoto', $datos['ruta']);
-        $this->db->bind(':nombre', $datos['nombre']);
-
+        $this->db->query("INSERT INTO perfil (idUsuario , nombreCompleto) VALUES (" . $datos['idusuario'] . " , '" . $datos['nombre'] . "')");
+        echo "INSERT INTO perfil (idUsuario , nombreCompleto) VALUES (" . $datos['idusuario'] . " , '" . $datos['nombre'] . "')";
         if ($this->db->execute()) {
             return true;
         } else {

@@ -12,10 +12,7 @@ class publicar
 
     public function publicar($datos)
     {
-        $this->db->query('INSERT INTO publicaciones (idUserPublico , contenidoPublicacion , fotoPublicacion) VALUES (:iduser , :contenido , :foto)');
-        $this->db->bind(':iduser', $datos['iduser']);
-        $this->db->bind(':contenido', $datos['contenido']);
-        $this->db->bind(':foto', $datos['foto']);
+        $this->db->query("INSERT INTO publicaciones (idUserPublico , contenidoPublicacion) VALUES (" . $datos['iduser'] . " , '" . $datos['contenido'] . "')");
 
         if ($this->db->execute()) {
             return true;
@@ -26,7 +23,7 @@ class publicar
 
     public function getPublicaciones()
     {
-        $this->db->query('SELECT P.idpublicacion , P.contenidoPublicacion , P.fotoPublicacion , P.fechaPublicacion , P.num_likes , U.usuario , U.idusuario , Per.fotoPerfil  FROM publicaciones P
+        $this->db->query('SELECT P.idpublicacion , P.contenidoPublicacion, P.fechaPublicacion , U.usuario , U.idusuario  FROM publicaciones P
         INNER JOIN usuarios U ON U.idusuario = P.idUserPublico 
         INNER JOIN perfil Per ON Per.idUsuario = P.idUserPublico');
         return $this->db->registers();
@@ -109,8 +106,8 @@ class publicar
 
     public function misLikes($user)
     {
-        $this->db->query('SELECT * FROM likes WHERE idUser = :id');
-        $this->db->bind(':id' , $user);
+        $this->db->query("SELECT * FROM likes WHERE idUser = '" . $user . "'");
+
         return $this->db->registers();
     }
 
