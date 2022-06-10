@@ -40,7 +40,7 @@ class Publicaciones extends controlador
 
 
         if ($this->publicar->eliminarPublicacion($publicacion)) {
-            unlink('C:/wamp64/www/redsocial/public/' . $publicacion->fotoPublicacion);
+            unlink('C:/wamp64/www/MyMangaTracker/public/' . $publicacion->fotoPublicacion);
             redirection('/home');
         } else { }
     }

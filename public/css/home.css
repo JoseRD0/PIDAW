@@ -1,4 +1,3 @@
-
 .perfil-usuario-main {
     background-color: #ffffff;
     border-bottom-left-radius: 10px;
@@ -29,7 +28,7 @@
     border-top-right-radius: 10px;
     height: 80px;
     width: 100%;
-    background-color: #926dde;
+    background-color: #d9836b;
 }
 
 .nombre-perfil {
@@ -55,7 +54,7 @@
 }
 
 .tabla-estadisticas a:hover {
-    color: #926dde
+    color: #ef745c
 } 
 
 .container-usuario-publicar {
@@ -79,7 +78,7 @@
 }
 
 .published:focus {
-    border: 1px solid #926dde;
+    border: 1px solid #de866d;
 }
 
 .image-border {

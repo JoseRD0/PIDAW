@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 class bd { //ESTA clase se encargará de 'toda' las interaccinoes con la BD
 
     //los nombres de las variables se explican a si mismos jaja
@@ -68,7 +70,6 @@ class bd { //ESTA clase se encargará de 'toda' las interaccinoes con la BD
                     break;
             }
         }
-
 
     }
 
